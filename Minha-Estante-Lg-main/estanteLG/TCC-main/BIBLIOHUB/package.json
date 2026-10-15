@@ -1,0 +1,13 @@
+{
+  "name": "bibliohub-codespaces",
+  "version": "2.0.0",
+  "private": true,
+  "description": "BiblioHub - biblioteca digital com Node 22 e SQLite nativo",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning backend/server.cjs",
+    "check": "node --check backend/server.cjs && node --check public/app.js",
+    "test-api": "node scripts/test-api.cjs",
+    "reset-db": "node scripts/reset-db.cjs"
+  }
+}

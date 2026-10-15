@@ -1,0 +1,28 @@
+BIBLIOHUB - EXECUÇÃO MAIS SIMPLES
+
+1. No terminal, execute:
+   ls
+
+2. Confirme que aparece:
+   package.json
+
+3. Execute SOMENTE:
+   npm start
+
+4. Abra:
+   PORTAS -> 5173 -> Open in Browser
+
+NÃO PRECISA npm install.
+NÃO PRECISA abrir porta 3001.
+NÃO PRECISA configurar proxy.
+
+ALUNO
+aluno@bibliohub.edu.br
+biblioteca123
+
+ADMIN
+admin@bibliohub.edu.br
+admin123
+
+TESTE AUTOMÁTICO (em outro terminal):
+npm run test-api
